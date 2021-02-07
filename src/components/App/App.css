@@ -1,0 +1,26 @@
+.splash-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container, button{
+  margin: 5px;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+thead, tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover{
+  background-color: yellow;
+}
